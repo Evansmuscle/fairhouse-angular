@@ -1,0 +1,8 @@
+<article class="detail-container">
+  <img [src]="location?.photo" alt="House" />
+  <p>Name: {{ location?.name }}</p>
+  <p>Location: {{ location?.city }}, {{ location?.state }}</p>
+  <p>Available Units: {{ location?.availableUnits }}</p>
+  <p>WiFi: {{ location?.wifi ? "Yes" : "No" }}</p>
+  <p>Laundry: {{ location?.laundry ? "Yes" : "No" }}</p>
+</article>
